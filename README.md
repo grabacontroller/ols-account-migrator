@@ -87,6 +87,12 @@ installer. The bundle is verified against its published SHA-256 before it is
 run, and the installer is idempotent, so settings are preserved. The manifest
 URL can be changed under **Settings**.
 
+`./publish.sh` also attaches every build to the
+[GitHub releases](https://github.com/grabacontroller/ols-account-migrator/releases)
+page (tag `v<version>`): the plugin zip, the installer bundle, the version
+manifest and `INSTALL.md`. Set `GITHUB_RELEASE=0` to skip that and publish only
+to the download host.
+
 ### Building the zip
 
 ```sh
