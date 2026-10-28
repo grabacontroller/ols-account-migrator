@@ -1,0 +1,20 @@
+# Secrets and per-install state
+config.json
+*.key
+master.key
+
+# Runtime data (keep the directories and their guards)
+data/work/*
+!data/work/.htaccess
+!data/work/index.html
+*.log
+migrate.log
+
+# Build output
+/*.zip
+/dist/
+
+# Python / editor noise
+__pycache__/
+*.pyc
+.DS_Store

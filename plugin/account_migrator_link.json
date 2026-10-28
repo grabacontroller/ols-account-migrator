@@ -1,0 +1,9 @@
+{
+  "icon": "/3rdparty/account_migrator/plugin_icon.png",
+  "order": 50,
+  "name": "Account Migrator",
+  "url": "/3rdparty/account_migrator/index.php",
+  "features": "advance",
+  "service": "admin_panel",
+  "target": "_self"
+}
